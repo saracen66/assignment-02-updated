@@ -1,0 +1,1271 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+/* Shared Styles */
+
+
+
+.inter-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+  body{
+    background-color: black;
+  }
+
+  /* Header related styles */
+  #header{
+    background: linear-gradient(to bottom, #0000, #171717, #0000);
+  }
+
+  /* Nav related styles */
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+
+  nav ul{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 4px;
+
+
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+  }
+
+  nav ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  nav li{
+    list-style: none;
+    margin-right: 47px;
+  }
+
+  .nav-btn{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    border: none;
+    padding: 8px 20px 8px 20px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  nav h3{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+  }
+
+  /* hero section related styles */
+  .hero-section{
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto;
+    gap: 167px;
+  }
+
+  .hero-content-container{
+    max-width: 520px;
+  }
+
+  .hero-title{
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+  }
+
+  #shape{
+    font-family: "Miama", sans-serif;
+    font-weight: 400;
+    font-size: 78px;
+    color: rgb(255, 255, 255);
+  }
+
+  .hero-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+
+  .hero-btn-orange{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    padding: 16px 40px 16px 40px;
+    margin-right: 14px;
+
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+  }
+
+  .hero-btn-black{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    padding: 16px 40px 16px 40px;
+    background-color: black;
+
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+  }
+
+  #hero-btn-text-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    width: 206px;
+    height: 96px;
+
+    margin-top: -160px;
+    margin-left: -90px;
+  }
+
+  #hero-orange-circle{
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero-img-container h4{
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin: 0;
+  }
+
+  .hero-img-container p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin: 0;
+  }
+
+  #hero-btn-text-container-2{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    width: 193px;
+    height: 98px;
+
+    margin-top: -380px;
+    margin-left: 230px;
+  }
+
+  #hero-btn-text-container-2 h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+
+  #hero-btn-text-container-2 p{
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+
+  /* habit section related styles */
+
+  #habit{
+    max-width: 1060px;
+    margin: 176px auto;
+    
+  }
+
+  .habit-upper-content-container{
+    max-width: 671px;
+    margin: 0 auto;
+  }
+
+  .habit-upper-content-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 0px 14px 0px;
+  }
+
+  .habit-upper-content-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin: 0px 0px 54px 0px;
+  }
+
+  .habit-middle-content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1044px;
+    margin: 0 auto;
+    gap: 100px;
+  }
+
+  .habit-middle-content-container img{
+    border-radius: 50%;
+  }
+
+  .habit-middle-content-container h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 26px 0px 6px 0px;
+  }
+
+  .habit-middle-content-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    /* width: 231px; */
+  }
+
+  .habit-lower-content-container{
+    display: flex;
+    align-items: center;
+    gap: 165px;
+
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    max-width: 1060px;
+    max-height: 371px;
+    margin-top: 100px;
+  }
+
+  .habit-lower-content-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 41px 0px 14px 54px;
+  }
+
+  .habit-lower-content-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin: 0px 0px 34px 54px;
+  }
+
+  .habit-lower-content-container .hero-btn-orange{
+    margin: 0px 0px 40px 54px;
+  }
+
+  .habit-lower-content-container img{
+    max-width: 366px;
+    max-height: 312px;
+    border-radius: 18px;
+    margin: 30px 32px 29px 0px;
+  }
+
+  /* BMI section related styles */
+
+  #bmi-upper-content-container{
+    max-width: 671px;
+    margin: 0px auto 60px auto;
+    
+  }
+
+  #bmi-upper-content-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 0px 14px 0px;
+  }
+
+  #bmi-upper-content-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+  }
+
+  #bmi{
+    background: rgb(34, 34, 34);
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    gap: 175px;
+  }
+
+  .bmi-chart h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 52px 0px 52px 187px;
+    margin: 0;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 310px;
+  }
+
+  .table-container{
+    padding: 0px 0px 133px 189px;
+    margin: 0;
+  }
+
+  th{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+  }
+
+  td{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 120%;
+    letter-spacing: 0%;
+  }
+
+  th, td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    padding: 13px;
+  }
+
+
+
+  .bmi-calculator h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 49px 0px 14px 0px;
+    margin: 0;
+  }
+
+  .bmi-calculator p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    padding: 0px 0px 34px 0px;
+    margin: 0;
+    max-width: 577px;
+  }
+
+  .bmi-calculator-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+  }
+
+  .form-item {
+    display: flex;
+    gap: 15px;
+  }
+
+  input, select {
+    background-color: #444;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  ::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+  }
+
+  .form-container button{
+    margin-top: 34px;
+    font-size: 16px;
+  }
+
+  /* Our Team Section related styles */
+
+  #team{
+    max-width: 1060px;
+    margin: 120px auto 0px auto;
+  }
+
+  .team-upper-content-container{
+    max-width: 671px;
+    margin: 0 auto;
+  }
+
+  .team-upper-content-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 0px 14px 0px;
+  }
+
+  .team-upper-content-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin: 0px 0px 58px 0px;
+  }
+
+  .team-img-container{
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 88px;
+  }
+
+  .trainer-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+
+  .trainer-card img {
+    width: 100%;
+    height: 250px;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
+    opacity: 0.75;
+  }
+
+  .trainer-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    color: #fff;
+    text-align: left;
+    border-radius: 0 0 15px 15px;
+  }
+
+  .trainer-info h3 {
+  margin: 0 0 5px;
+  font-size: 1.25rem;
+  }
+
+  .trainer-info p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #ccc;
+  }
+
+  /* Footer related Styles */
+
+  #footer{
+    background: rgba(255, 255, 255, 0.1);
+    padding-top: 66px;
+    padding-bottom: 35px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  #footer h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 120%;
+    text-align: left;
+    margin: 0 0 20px 0;
+  }
+
+  #footer .footer-subtitle{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
+
+  .footer-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 152px;
+  }
+
+  .footer-content-left{
+    width: 443px;
+  }
+
+  #footer h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0 0 33px 0;
+  }
+
+  #footer h4{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0 0 18px 0;
+  }
+
+  hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    max-width: 1060px;
+    margin-top: 75px;
+    margin-bottom: 33px;
+  }
+
+  #copyright-container{
+    max-width: 318px;
+    margin: 0 auto;
+  }
+
+  #copyright-text{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+  }
+
+
+
+  /* blog related styles */
+
+  .blogs-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-blog-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 60%;
+    margin: 20px;
+
+}
+
+.main-blog-card img {
+    width: 100%;
+    height: 340px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.main-blog-card h2 {
+    font-size: 24px;
+    margin: 15px 0;
+    color: #ffffff;
+}
+
+.side-blog-cards {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width: 35%;
+    margin: 20px 20px 0 0;
+    gap: 19px;
+}
+
+.side-blog-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.side-blog-card img {
+    width: auto;
+    height: 80px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.side-blog-card h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #ffffff;
+}
+
+#blog-section{
+  background: rgba(255, 255, 255, 0.1);
+  max-width: 1060px;
+  margin: 0 auto 60px auto;
+  border-radius: 8px;
+  
+}
+
+#blog-section button{
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+  
+  @media screen and (max-width:576px) {
+
+    *{
+      margin: 0;
+      /* padding: 0; */
+    }
+
+    /* responsive style of nav and hero section starts */
+    nav{
+      margin-top: 52px;
+      margin-left: 20px;
+      margin-bottom: 52px;
+      margin-right: 20px;
+    }
+    
+    .hero-section {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .nav-menu-container {
+      display: none;
+    }
+
+    .hero-section{
+      max-width: 393px;
+      margin: 0;
+    }
+
+    .hero-content-container {
+      max-width: 393px;
+      margin-left: 20px;
+    }
+
+    .hero-title {
+      margin: 0;
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 36px;
+      font-weight: 900;
+      line-height: 120%;
+      letter-spacing: 0%;
+      text-align: left;
+
+      max-width: 285px;
+      margin-bottom: 28px;
+    }
+
+    .hero-description{
+      color: rgba(255, 255, 255, 0.5);
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+      text-align: left;
+
+      max-width: 274px;
+      margin-bottom: 28px;
+    }
+
+    .double-btn-container{
+      display: flex;
+    }
+
+    .hero-section .double-btn-container > .hero-btn-orange{
+      display: none;
+    }
+
+    .hero-btn-black{
+      
+      font-size: 14px;
+    }
+
+    .hero-btn-orange-mobile{
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 22px;
+      letter-spacing: 0px;
+      padding: 16px 40px 16px 40px;
+      margin-right: 14px;
+  
+      border-radius: 42px;
+      background: rgb(230, 83, 60);
+      border: none;
+      /* width: 150px; */
+    }
+
+    .hero-img-container{
+      max-width: 349px;
+      margin-top: -120px;
+    }
+
+    .hero-img-container img {
+      margin-left: 20px;
+    }
+
+    #hero-btn-text-container{
+    box-sizing: border-box;
+    border: 0.76px solid rgba(255, 255, 255, 0.1);
+    border-radius: 9.07px;
+      
+    backdrop-filter: blur(15.12px);
+    background: rgba(48, 48, 48, 0.54);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+
+    width: 155.74px;
+    height: 72.58px;
+
+    margin-top: -320px;
+    margin-left: 30px;
+  }
+
+  #hero-orange-circle{
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    width: 30.24px;
+    height: 30.24px;
+  }
+
+  .hero-img-container h4{
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 18.14px;
+    font-weight: 900;
+    line-height: 18.14px;
+    letter-spacing: 0.23px;
+    text-align: left;
+    margin: 0;
+  }
+
+  .hero-img-container p{
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 12.1px;
+    font-weight: 400;
+    line-height: 18.14px;
+    letter-spacing: 0.38px;
+    text-align: left;
+    margin: 0;
+  }
+
+  #hero-btn-text-container-2{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    width: 145.91px;
+    height: 74.09px;
+
+    margin-top: -280px;
+    margin-left: 210px;
+  }
+
+  #hero-btn-text-container-2 h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 30.24px;
+    font-weight: 900;
+    line-height: 30.24px;
+    letter-spacing: 0.76px;
+    text-align: left;
+    margin: 0;
+  }
+
+  #hero-btn-text-container-2 p{
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 9.83px;
+    font-weight: 400;
+    line-height: 15.12px;
+    letter-spacing: 0.76px;
+    text-align: left;
+    margin: 0;
+  }
+
+  /* responsive style of nav and hero section ends here */
+
+  /* responsive style of Habit section starts */
+
+  #habit{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    max-width: 353px;
+    margin: 600px auto 100px auto;
+  }
+
+  .habit-upper-content-container{
+    max-width: 318px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .habit-upper-content-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 318px;
+    margin: 0 auto;
+  }
+
+  .habit-upper-content-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-top: 14px;
+  }
+
+  .habit-middle-content-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 338px;
+    margin: 0 auto;
+  }
+
+  .habit-middle-content-container img{
+    margin-left: 80px;
+  }
+
+  .habit-middle-content-container h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .habit-middle-content-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+  }
+
+  .habit-lower-content-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 353px;
+    max-height: 531px;
+    margin: 40px auto 0px auto;
+  }
+
+  .habit-lower-content-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 31px 33px 14px 33px;
+  }
+
+  .habit-lower-content-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin: 0px 33px 24px 33px;
+    width: 287px;
+  }
+
+  .habit-lower-content-container .hero-btn-orange{
+    margin: 0px 33px 31px 33px;
+    width: 287px;
+    justify-content: center;
+    font-size: 14px;
+  }
+  /* ------------------
+  ------------------
+  ----------------
+  -----------------
+  ---------------- */
+  .running-image-container{
+    max-width: 353px;
+    max-height: 170px;
+    margin: -195px 0 0 14px;
+  }
+
+  .running-image-container img{
+    max-width: 287px;
+    max-height: 170px;
+    margin: 0px auto 35px 32px;
+  }
+
+  /* ------------------
+  ------------------
+  ----------------
+  -----------------
+  ---------------- */
+
+  /* responsive style of Habit section ends here */
+
+  /* responsive style of bmi section starts */
+
+
+  #bmi-upper-content-container{
+    padding: 0px 32px 0px 32px;
+    max-width: 310px;
+  }
+  
+  #bmi-upper-content-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  #bmi-upper-content-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
+
+  .table-container{
+    padding: 0px;
+  }
+
+  #bmi{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 42px;
+    padding-bottom: 33px;
+  }
+
+  .bmi-chart h3{
+    padding: 34px 0px 23px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .bmi-calculator h3{
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 14px;
+  }
+
+  .bmi-calculator p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    max-width: 310px;
+  }
+
+  .bmi-calculator-form{
+    width: 310px;
+  }
+
+  .bmi-chart{
+    margin: 0 auto;
+  }
+
+  .bmi-calculator{
+    margin: 0 auto;
+  }
+
+  /* responsive style of bmi section ends here */
+
+
+  /* responsive style of OUR TEAM section starts */
+
+  #team{
+    margin-top: 80px;
+  }
+
+  .team-upper-content-container{
+    max-width: 309px;
+  }
+
+  .team-upper-content-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .team-upper-content-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+  }
+
+  .team-img-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto 66px auto;
+    padding: 20px 0px 20px 0px;
+    max-width: 353px;
+  }
+
+  .trainer-card{
+    width: 310px;
+    margin: 0 auto;
+  }
+
+  /* responsive style of OUR TEAM section ends here */
+
+  /* responsive style of Footer Section starts */
+
+  .footer-content-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    padding-left: 30px;
+  }
+
+  #footer h1{
+    font-size: 50px;
+  }
+
+  .footer-content-left{
+    max-width: 317px;
+  }
+
+  hr{
+    width: 354px;
+    margin: 70px auto 40px auto;
+  }
+
+  #copyright-text{
+    font-size: 14px;
+  }
+
+  .blogs-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .main-blog-card img{
+    width: 100%;
+    height: 250px;
+  }
+
+  .main-blog-card{
+    margin: 20px auto 20px auto;
+    width: 80%;
+  }
+
+  .side-blog-cards{
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .side-blog-card h3{
+    width: 170px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .side-blog-cards button{
+    width: 180px;
+    align-items: center;
+  }
+
+  #blog-section{
+    padding-bottom: 20px;
+  }
+
+
+  }
+
+  @media only screen and (min-width: 1200px){
+    
+    .hero-btn-orange-mobile{
+    display: none;
+    }
+
+    .hamburger-menu{
+      display: none;
+    }
+  }
+
+  
