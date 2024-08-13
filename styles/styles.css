@@ -733,6 +733,22 @@
   margin: 0 auto;
 }
 
+.blog-upper-content-container{
+  max-width: 1060px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.blog-upper-content-container h2{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
   
   @media screen and (max-width:576px) {
 
@@ -1252,6 +1268,16 @@
 
   #blog-section{
     padding-bottom: 20px;
+  }
+
+  .blog-upper-content-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
   }
 
 
